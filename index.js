@@ -14,7 +14,7 @@ if ( argv.length > 1 ) {
   // console.log(argv)
   var first_arg = argv[1];
   if ( first_arg == '-h' || first_arg == '--help' ) {
-    return console.log('Usages: who-use is a tool for look user by server port. only use for mac\n\tkp \n\tkp 3002\n\tkp 3002 -s\n\tkp 3002 --sudo');
+    return console.log('Usages: who-use is a tool for look user by server port. only use for mac');
   }else{
     server_port = (argv[1] + '').trim();
   }
