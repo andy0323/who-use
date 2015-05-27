@@ -1,0 +1,40 @@
+{
+  "name": "who-use",
+  "version": "0.1.0",
+  "description": "look who use the port for mac && linux",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm publish .",
+    "test": "node index.js"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "who-use": "index.js"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "process",
+    "linux",
+    "mac"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andy0323/who-use"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andy0323/who-use/issues"
+  },
+  "homepage": "https://github.com/andy0323/who-use",
+  "dependencies": {
+    "shelljs": "^0.4.0"
+  },
+  "maintainers": [
+    {
+      "name": "andy0323",
+      "email": "andy_ios@163.com"
+    }
+  ]
+}
