@@ -29,8 +29,10 @@ child_process.exec(script,
       console.log('who-use exec error: ' + error);
     }else{
       if (stdout) {
-        console.log('\nFind it who used in ' + server_port + ' ！！！\n');
+        console.log('\nFind it who used ' + server_port + ' ！！！\n');
         console.log(stdout);        
+      }else {
+        console.log('\nYeah！No One used ' + server_port + '\n');
       };
     }
 });
